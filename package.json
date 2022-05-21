@@ -3,5 +3,9 @@
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "start:components": "lerna run start --scope=sten-components",
+    "generate:components": "lerna run generate --scope=sten-components"
   }
 }
